@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.appbar{
+    background-color: gray;
+    padding: 5px;
+    height: 100px;
+}
+.appbar .nav{
+    float: right;
+}
+.appbar .nav .nav-ul{
+    list-style: none;
+    padding-right: 30px;
+}
+.appbar .nav .nav-ul li{
+    display: inline;
+}
+
+.appbar .image{
+    float: left;
+    width: 200px;
+    margin: 40px;
+}
+.appbar .image #img1{
+    height: 50px;
+    width: 30px;
+}
+.main {
+    padding: 100px;
+}
+
+.clear {
+    clear: both;
+}
+.title{
+    text-align: center;
+   margin-bottom: 50px;
+}
+.main{
+    text-align: center;
+}
+.main div {
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+}
+.image{
+    height: 50px;
+    width: 30px;
+}
